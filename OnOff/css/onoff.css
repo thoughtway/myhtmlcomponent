@@ -1,0 +1,7 @@
+.XBAPP .OnOff{width:4rem;height:2rem;display: inline-block;border-radius:1rem;box-shadow: inset 0 .02rem .05rem .02rem;position: relative;overflow: hidden;}
+.XBAPP .OnOff>span{position:absolute;top:0;left:0;right:0;bottom:0;border-radius:1rem;}
+.XBAPP .OnOff>b{position: absolute;top:0;right:100%;margin-right:-2rem;width:2rem;height:2rem;box-shadow:inset 0 .02rem .05rem .02rem;border-radius: 50%;background:#fff;}
+.XBAPP .OnOff>input[type="checkbox"]{-webkit-appearance:none;display:none;}
+.XBAPP .OnOff>input[type="checkbox"]:checked~span{background-color:chartreuse;box-shadow: inset 0 .02rem .05rem .02rem;}
+/*.XBAPP .OnOff>input[type="checkbox"]+b{left:.2rem;}*/
+.XBAPP .OnOff>input[type="checkbox"]:checked~b{right:0;margin-right: 0rem;}
