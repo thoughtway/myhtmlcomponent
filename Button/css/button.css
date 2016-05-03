@@ -1,0 +1,115 @@
+.XBAPP .basebtn{
+	display: inline-block;
+	cursor: pointer;
+	background: -webkit-linear-gradient(#4af, #07e);
+	text-align: center;
+	color: #fff;
+	font: normal 1rem "Arial", "黑体";
+	text-decoration: none;
+	padding: .8rem 1.2rem;
+	margin: 0.2rem;	
+	box-shadow: 0 0 0.2rem rgba(0, 0, 0, .4), inset -.04rem -.04rem .08rem rgba(0, 0, 0, .7), inset .04rem .04rem .08rem rgba(255, 255, 255, .8)
+}
+.XBAPP .basebtn.roundborder{border-radius: .4rem;}
+
+.XBAPP .rating label{float:right;background-color:transparent;display:inline-block;}
+.XBAPP .rating input[type="radio"]{-webkit-appearance:none;display: none;}
+.XBAPP .rating input[type="radio"]:checked~label{background-color:rgba(0,0,0,.5)}
+.XBAPP ul.btnlst3d {
+	position: relative;
+	padding:0;
+	margin:0;
+	list-style:none;
+	cursor: pointer;
+}
+
+.XBAPP ul.btnlst3d.hori li{display:inline-block;float:right;}
+
+.XBAPP ul.btnlst3d .list-item {
+  background: #000000;
+  color: #575757;
+  text-align: center;
+  height: 2.5em;
+  width: 4em;
+  vertical-align: middle;
+  line-height: 2.5em;
+  border-bottom: 1px solid #060606;
+  position: relative;
+  display: block;
+  text-decoration: none;
+  -webkit-box-shadow: -2em 1.5em 0 #e1e1e1;
+  -moz-box-shadow: -2em 1.5em 0 #e1e1e1;
+  box-shadow: -2em 1.5em 0 #e1e1e1;
+  -webkit-transition: top 0.25s linear, left 0.25s linear, background 0.1s linear, color 0.1s linear;
+  -moz-transition: top 0.25s linear, left 0.25s linear, background 0.1s linear, color 0.1s linear;
+  -o-transition: top 0.25s linear, left 0.25s linear, background 0.1s linear, color 0.1s linear;
+  transition: top 0.25s linear, left 0.25s linear, background 0.1s linear, color 0.1s linear;
+}
+.XBAPP ul.btnlst3d .list-item:hover {
+  background: #ff6e42;
+  color: #fffcfb;
+  top: -0.5em;
+  left: 0.5em;
+  -webkit-transition: top 0.25s linear, left 0.25s linear, background 0.1s linear, color 0.1s linear;
+  -moz-transition: top 0.25s linear, left 0.25s linear, background 0.1s linear, color 0.1s linear;
+  -o-transition: top 0.25s linear, left 0.25s linear, background 0.1s linear, color 0.1s linear;
+  transition: top 0.25s linear, left 0.25s linear, background 0.1s linear, color 0.1s linear;
+  -webkit-box-shadow: -2em 2em 0 #e1e1e1;
+  -moz-box-shadow: -2em 2em 0 #e1e1e1;
+  box-shadow: -2em 2em 0 #e1e1e1;
+}
+.XBAPP ul.btnlst3d .list-item:hover:before, .list-item:hover:after {
+  -webkit-transition: all 0.25s linear;
+  -moz-transition: all 0.25s linear;
+  -o-transition: all 0.25s linear;
+  transition: all 0.25s linear;
+}
+.XBAPP ul.btnlst3d .list-item:hover:before {
+  background: #b65234;
+  width: 1em;
+  top: 0.5em;
+  left: -1em;
+}
+.XBAPP ul.btnlst3d .list-item:hover:after {
+  background: #b65234;
+  width: 1em;
+  bottom: -2.5em;
+  left: 1em;
+  height: 4em;
+}
+.XBAPP ul.btnlst3d .list-item:before, .XBAPP ul.btnlst3d .list-item:after {
+  -webkit-transition: all 0.25s linear;
+  -moz-transition: all 0.25s linear;
+  -o-transition: all 0.25s linear;
+  transition: all 0.25s linear;
+}
+.XBAPP ul.btnlst3d .list-item:after {
+  content: "";
+  position: absolute;
+  height: 4em;
+  background: #181818;
+  width: 0.5em;
+  bottom: -2.25em;
+  left: 1.5em;
+  -webkit-transform: rotate(90deg) skew(0deg, 45deg);
+  -moz-transform: rotate(90deg) skew(0deg, 45deg);
+  -ms-transform: rotate(90deg) skew(0deg, 45deg);
+  -o-transform: rotate(90deg) skew(0deg, 45deg);
+  transform: rotate(90deg) skew(0deg, 45deg);
+}
+.XBAPP ul.btnlst3d .list-item:before {
+  content: "";
+  position: absolute;
+  height: 2.5em;
+  background: #121212;
+  width: 0.5em;
+  top: 0.215em;
+  left: -0.45em;
+  -webkit-transform: skewY(-45deg);
+  -moz-transform: skewY(-45deg);
+  -ms-transform: skewY(-45deg);
+  -o-transform: skewY(-45deg);
+  transform: skewY(-45deg);
+}
+
+
